@@ -1,0 +1,96 @@
+/* set height for navbar */
+.navbar {
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* set margin top for sections to offset navbar height */
+section {
+  margin-top: 70px;
+}
+
+.container {
+  padding-top: 50px;
+  padding-left:275px;
+  width:100%;
+}
+
+/* hide section headings on mobile */
+@media (max-width: 576px) {
+  section h2 {
+    display: none;
+  }
+}
+
+/* set background color and padding for active menu item */
+.navbar-nav .active > .nav-link {
+  background-color: #FF0000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+/* set margin top for collapsed menu */
+.navbar-collapse {
+  /* margin-top: 70px; */
+}
+
+/* set color for menu icon */
+.navbar-toggler-icon {
+  color: #000;
+}
+
+/* set color for menu links */
+.navbar-nav .nav-link {
+  color: #000;
+}
+
+/* set hover color for menu links */
+.navbar-nav .nav-link:hover {
+  color: #FF0000;
+}
+
+/* About me panel */
+.aboutme {
+	float:left;
+	position:fixed;
+	width:250px;
+	padding:20px;
+	padding-top:75px;
+	color:white;
+	height:100%;
+}
+
+/* timeline */
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+  padding-left:30px;
+  margin-left: 15px;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: hsl(217, 88.2%, 90%);
+  color: hsl(217, 88.8%, 35.1%);
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

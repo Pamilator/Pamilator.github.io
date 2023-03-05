@@ -1,1 +1,122 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section4">Education</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="aboutme bg-secondary" style="text-align:center;">
+	<img src="./img/photo_cfamin.jpg" width="210" style="border-radius: 15%;"/>
+	<h2 style=" padding-top:20px;">Cédric Famin</h2>
+	<p><i>Data Engineer</i><p>
+	<p><i>Devops Engineer</i><p>
+	<p><a href = "mailto: cedric.famin@gmail.com"><img src="./img/mail-xxl.png" width="30"/></a> <a href = "https://www.linkedin.com/in/cfamin/"><img src="./img/linkedin-3-xxl.png" width="24"/></a></p>
+  </div>
+  <div class="container bg-dark">
+    <section id="section1">
+      <h2>About Me</h2>
+      <p>I'm a passionate programmer who loves designing automation pipelines. I can work as a DataOps Engineer (or data engineer as you prefer), DevOps Engineer, Test Automation Engineer, etc.</p>
+	  <p>I can help you create and develop your automation strategy by providing my experience working in the gaming industry.</p>
+	  <hr />
+    </section>
+    <section id="section2">
+      <h2>Projects</h2>
+      <p>Nulla facilisi. Nullam sed dapibus nibh. Aliquam malesuada eros vel iaculis dictum. Mauris tristique velit et nisl lobortis, vel malesuada elit lacinia. Pellentesque sit amet ipsum non mi pulvinar consectetur sit amet vel justo. Donec in faucibus diam.</p>
+	  <hr />
+    </section>
+    <section id="section3">
+      <h2>Skills</h2>
+	  <div style="margin-top:15px;">
+		  <p class="btn btn-secondary" data-toggle="collapse" href="#skillsprogrammingLanguage" role="button" aria-expanded="false" aria-controls="skillsprogrammingLanguage">
+			> Programming languages
+		  </p>
+		  <div class="collapse" id="skillsprogrammingLanguage">
+		  <div class="card card-body bg-secondary">
+			This text will be hidden/shown when the button is clicked.
+		  </div>
+		</div>
+	  </div>
+	  <div style="margin-top:15px;">
+		  <p class="btn btn-secondary" data-toggle="collapse" href="#skillstechnologies" role="button" aria-expanded="false" aria-controls="skillstechnologies">
+			> Technologies
+		  </p>
+		  <div class="collapse" id="skillstechnologies">
+		  <div class="card card-body bg-secondary">
+			This text will be hidden/shown when the button is clicked.
+		  </div>
+		</div>
+	  </div>
+      <div style="margin-top:15px;">
+		  <p class="btn btn-secondary" data-toggle="collapse" href="#skillsdomains" role="button" aria-expanded="false" aria-controls="skillsdomains">
+			> Domains
+		  </p>
+		  <div class="collapse" id="skillsdomains">
+		  <div class="card card-body bg-secondary">
+			This text will be hidden/shown when the button is clicked.
+		  </div>
+		</div>
+	  </div>
+	  <hr />
+    </section>
+    <section id="section4">
+      <h2>Education</h2>
+	  <ul class="timeline-with-icons">
+		<li class="timeline-item mb-5">
+		  <span class="timeline-icon">
+			<i class="fas fa-rocket text-primary fa-sm fa-fw"><img src="./img/epitech.png" width="20" /></i>
+		  </span>
+		  <h5 class="fw-bold">Epitech : Master of Information Technology</h5>
+		  <p class="text-muted mb-2 fw-bold">2013</p>
+		  <p class="text-muted">
+		  </p>
+		</li>
+
+		<li class="timeline-item mb-5">
+		  <span class="timeline-icon">
+			<i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw bi bi-browser-firefox"><img src="./img/educational.png" width="30" /></i>
+		  </span>
+		  <h5 class="fw-bold">Baccalauréat S</h5>
+		  <p class="text-muted mb-2 fw-bold">2009</p>
+		  <p class="text-muted">
+			Option: Science of engineering
+		  </p>
+		</li>
+	  </ul>
+	  <hr />
+	</section>
+  </div>
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
