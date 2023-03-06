@@ -26,7 +26,16 @@ $(window).scroll(function() {
 }).scroll();
 
 // close menu on link click
-  $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-  });
+$('.navbar-nav>li>a').on('click', function(){
+	$('.navbar-collapse').collapse('hide');
+});
   
+const loadingDate = new Date();
+$.ajax({
+	url: "https://0hvdv91d2d.execute-api.us-east-1.amazonaws.com/tracking/homepageload"
+	, type: 'post'
+	, data: { date: loadingDate.toUTCString() }
+    , dataType: 'json'
+	, contentType: 'application/json'
+	, crossDomain: true,
+});
