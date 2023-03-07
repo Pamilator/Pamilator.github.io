@@ -34,8 +34,7 @@ const loadingDate = new Date();
 $.ajax({
 	url: "https://0hvdv91d2d.execute-api.us-east-1.amazonaws.com/tracking/homepageload"
 	, type: 'post'
-	, data: { date: loadingDate.toUTCString() }
-    , dataType: 'json'
+	, data: JSON.stringify({ date: loadingDate.toUTCString() })
 	, contentType: 'application/json'
 	, crossDomain: true,
 });
