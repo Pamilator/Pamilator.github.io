@@ -12,7 +12,6 @@
 </head>
 <body class="bg-dark text-light">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img src="./img/wip-64.png" />
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,8 +26,11 @@
         <li class="nav-item">
           <a class="nav-link" href="#section3">Skills</a>
         </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#section4">Experiences</a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#section4">Education</a>
+          <a class="nav-link" href="#section5">Education</a>
         </li>
       </ul>
     </div>
@@ -85,52 +87,63 @@
       <h2>Skills</h2>
 	  <fieldset class="border p-2 rounded">
 	     <legend  class="w-auto">Programming language</legend>
-		 <img src="./img/language_cplusplus.png" height="60" /> <img src="./img/language_python.png" height="60" /> <img src="./img/sql_icon.png" height="60" />
+		 <figure class="skills_picto">
+			<img src="./img/language_cplusplus.png" alt="C / C++ / C #" width="64">
+			<figcaption style="text-align:center">C / C++</figcaption>
+		  </figure>
+		  <figure class="skills_picto">
+			<img src="./img/language_python.png" alt="Python" width="64">
+			<figcaption style="text-align:center">Python</figcaption>
+		  </figure>
+		  <figure class="skills_picto">
+			<img src="./img/sql_icon.png" alt="SQL" width="64">
+			<figcaption style="text-align:center">SQL</figcaption>
+		  </figure>
 	  </fieldset>
 	  <fieldset class="border p-2 rounded">
 	     <legend  class="w-auto">AWS Cloud</legend>
 
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_Amazon-API-Gateway_64.png" alt="Amazon API Gateway" style="width:64">
 			<figcaption style="text-align:center">Amazon API Gateway</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_Amazon-Simple-Queue-Service_64.png" alt="Amazon SQS" style="width:64">
 			<figcaption style="text-align:center">Amazon SQS</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_Amazon-Simple-Storage-Service_64.png" alt="Amazon S3" style="width:64">
 			<figcaption style="text-align:center">Amazon S3</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_Amazon-EC2_64.png" alt="Amazon EC2" style="width:64">
 			<figcaption style="text-align:center">Amazon EC2</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_AWS-Lambda_64.png" alt="Amazon Lambda" style="width:64">
 			<figcaption style="text-align:center">Amazon Lambda</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_Amazon-Elastic-Container-Registry_64.png" alt="Amazon ECR" style="width:64">
 			<figcaption style="text-align:center">Amazon ECR</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_Amazon-EMR_64.png" alt="Amazon EMR" style="width:64">
 			<figcaption style="text-align:center">Amazon EMR</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_Amazon-Redshift_64.png" alt="Amazon Redshift" style="width:64">
 			<figcaption style="text-align:center">Amazon Redshift</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_Amazon-Athena_64.png" alt="Amazon Athena" style="width:64">
 			<figcaption style="text-align:center">Amazon Athena</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_AWS-Glue_64.png" alt="Amazon Glue" style="width:64">
 			<figcaption style="text-align:center">Amazon Glue</figcaption>
 		  </figure>
-		  <figure class="aws_skills">
+		  <figure class="skills_picto">
 			<img src="./img/aws/Arch_Amazon-SageMaker_64.png" alt="Amazon Sagemaker" style="width:64">
 			<figcaption style="text-align:center">Amazon Sagemaker</figcaption>
 		  </figure>
@@ -139,14 +152,83 @@
 	  <fieldset class="border p-2 rounded">
 	     <legend  class="w-auto">Knowledges</legend>
 		 
-		 <figure class="aws_skills">
-			<img src="./img/language_cplusplus.png" alt="ETL">
+		 <figure class="skills_picto">
+			<img src="./img/etl.png" alt="ETL">
 			<figcaption style="text-align:center">ETL / ELT</figcaption>
+		  </figure>
+		  <figure class="skills_picto">
+			<img src="./img/airflow.png" alt="Airflow">
+			<figcaption style="text-align:center">Airflow</figcaption>
+		  </figure>
+		  <figure class="skills_picto">
+			<img src="./img/docker.png" alt="Docker">
+			<figcaption style="text-align:center">Docker</figcaption>
 		  </figure>
 	  </fieldset>
 	  <hr />
     </section>
-    <section id="section4">
+	<section id="section4">
+      <h2>Experiences</h2>
+	  <ul class="timeline-with-icons">
+		<li class="timeline-item mb-5">
+		  <span class="timeline-icon">
+			<i class="fas fa-rocket text-primary fa-sm fa-fw"><img src="./img/ubisoft.png" width="24" /></i>
+		  </span>
+		  <h5 class="fw-bold">Ubisoft: Senior Quality Assurance Engineer</h5>
+		  <p class="text-muted mb-2 fw-bold">2019 - 2023</p>
+		  <p class="text-muted">
+			Create automatic test through an internal tools based on Gherkin synthax. Owner of the strategy & implement tests on two differents AAA games.
+		  </p>
+		</li>
+
+		<li class="timeline-item mb-5">
+		  <span class="timeline-icon">
+			<i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw bi bi-browser-firefox"><img src="./img/ubisoft.png" width="24" /></i>
+		  </span>
+		  <h5 class="fw-bold">Ubisoft: Senior Data Engineer</h5>
+		  <p class="text-muted mb-2 fw-bold">2016 - 2019</p>
+		  <p class="text-muted">
+			Handle data of all Ubisoft mobile games, homemade ETL scheduled with Airflow on AWS Cloud.
+		  </p>
+		</li>
+		
+		<li class="timeline-item mb-5">
+		  <span class="timeline-icon">
+			<i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw bi bi-browser-firefox"><img src="./img/ubisoft.png" width="24" /></i>
+		  </span>
+		  <h5 class="fw-bold">Ubisoft: Engine programmer</h5>
+		  <p class="text-muted mb-2 fw-bold">2016 - 2019</p>
+		  <p class="text-muted">
+			Help to develop a new mobile engine:
+			Create tools to monitor Lua VM memory, homemade C++ package manager, engine optimization...
+		  </p>
+		</li>
+		
+		<li class="timeline-item mb-5">
+		  <span class="timeline-icon">
+			<i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw bi bi-browser-firefox"><img src="./img/eugensystems.png" width="24" style="border-radius: 50%;" /></i>
+		  </span>
+		  <h5 class="fw-bold">Eugen Systems: Gameplay / Tools programmer</h5>
+		  <p class="text-muted mb-2 fw-bold">2012 - 2016</p>
+		  <p class="text-muted">
+			Implement game systems, build a new pathfind system, selection systems...
+		  </p>
+		</li>
+		
+		<li class="timeline-item mb-5">
+		  <span class="timeline-icon">
+			<i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw bi bi-browser-firefox"></i>
+		  </span>
+		  <h5 class="fw-bold">Game-Fed: Backend programmer</h5>
+		  <p class="text-muted mb-2 fw-bold">2010 - 2010</p>
+		  <p class="text-muted">
+			Backend developer to handle multiple kind of events: Forza competition, meetings web application, ticketing web application...
+		  </p>
+		</li>
+	  </ul>
+	  <hr />
+	</section>
+    <section id="section5">
       <h2>Education</h2>
 	  <ul class="timeline-with-icons">
 		<li class="timeline-item mb-5">
@@ -175,8 +257,7 @@
   </div>
   <!-- jQuery and Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.js"></script>
   <!-- Custom JS -->
   <script src="script.js"></script>
 </body>

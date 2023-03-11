@@ -95,9 +95,23 @@ section {
   justify-content: center;
 }
 
-.aws_skills {
+.skills_picto {
 	width:128px;
 	text-align:center;
 	float: left;
     height: 128px;
+}
+
+.tooltip-inner {
+    max-width: 96px;
+    /* If max-width does not work, try using width instead */
+    width: 96px;
+}
+
+.skills_90 {
+    width:90%;
+}
+
+.skills_picto > img {
+	width:64px;
 }

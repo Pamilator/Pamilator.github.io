@@ -38,3 +38,8 @@ $.ajax({
 	, contentType: 'application/json'
 	, crossDomain: true,
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
